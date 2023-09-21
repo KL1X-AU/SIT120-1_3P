@@ -3,10 +3,12 @@
 </template>
 
 <style>
-/* Mobile Screen */
+@import './css/grid.css';
+/*
 body {
   margin:0;
   height:100vh;
+  background-color: #313131;
 }
 
 .grid-container {
@@ -48,8 +50,10 @@ body {
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 3;
+  background-color: white;
+  border-radius: 5vw;
+  margin-top:2vw;
 }
-/* Tablet 400px - 700px */
 @media screen and (min-width: 400px) {
   body {
     margin:0;
@@ -93,9 +97,6 @@ body {
     grid-row-end: 2;
   }
 }
-
-
-/* Bigger Screens */
 @media screen and (min-width: 700px) {
   body {
     margin:0;
@@ -139,4 +140,5 @@ body {
     grid-row-end: 2;
   }
 }
+*/
 </style>

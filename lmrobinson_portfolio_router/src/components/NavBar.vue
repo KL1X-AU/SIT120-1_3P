@@ -33,6 +33,7 @@
         transition: 0.2s;
         margin-left:2vw;
         margin-right:2vw;
+        border-bottom: 0.1vw solid white;
     }
 
     a:hover {
